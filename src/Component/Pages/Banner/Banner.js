@@ -1,8 +1,8 @@
 import React from "react";
 import { Carousel } from "react-bootstrap";
-import img1 from "../../../img/IELTS-banner.jpg";
-import img2 from "../../../img/ielts-international-english-language-testing-260nw-1562715973.webp";
-import img3 from "../../../img/istockphoto-1314395227-1024x1024.jpg";
+import img1 from "../../../img/New Project (11).jpg";
+import img2 from "../../../img/New Project (12).jpg";
+import img3 from "../../../img/New Project (13).jpg";
 
 const Banner = () => {
   return (

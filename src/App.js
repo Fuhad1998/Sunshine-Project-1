@@ -11,6 +11,8 @@ import Footer from './Component/Pages/Footer/Footer';
 import Login from './Component/Pages/Login/Login';
 import Banner from './Component/Pages/Banner/Banner';
 import Register from './Component/Pages/Register/Register';
+import Achievement from './Component/Pages/Achievement/Achievement';
+import Expertise from './Component/Pages/Expertise/Expertise';
 
 
 
@@ -27,9 +29,17 @@ function App() {
        <Route path="/login">
         <Login></Login>
        </Route>
-       <Route path="/Register">
+       <Route path="/register">
         <Register></Register>
        </Route>
+       <Route path="/achievement">
+        <Achievement></Achievement>
+       </Route>
+       <Route path="/expertise">
+        <Expertise></Expertise>
+       </Route>
+       
+      
        <Route path="/">
         <Homes></Homes>
        </Route>
