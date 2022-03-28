@@ -2,8 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            This is footer
+        <div className='bg-primary' style={{height:"400px"}}>
+           <h1>
+               This is Footer
+           </h1>
         </div>
     );
 };
