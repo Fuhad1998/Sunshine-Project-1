@@ -10,6 +10,7 @@ import Achievement from "./Component/Pages/Achievement/Achievement";
 import Expertise from "./Component/Pages/Expertise/Expertise";
 import AuthProvider from "./Context/AuthProvider";
 import Services from "./Component/Pages/Services/Services";
+import PrivateRoute from "./Component/PrivateRoute/PrivateRoute";
 
 function App() {
   return (
@@ -31,12 +32,12 @@ function App() {
           <Route path="/achievement">
             <Achievement></Achievement>
           </Route>
-          <Route path="/expertise">
+          <PrivateRoute path="/expertise">
             <Expertise></Expertise>
-          </Route>
-          <Route path="/services">
+          </PrivateRoute>
+          <PrivateRoute path="/services">
             <Services></Services>
-          </Route>
+          </PrivateRoute>
 
           <Route path="/">
             <Homes></Homes>
@@ -51,6 +52,7 @@ function App() {
 
     </div>
   );
+
 }
 
 export default App;

@@ -1,7 +1,6 @@
 import React from 'react';
 import Achievement from '../Achievement/Achievement';
 import Banner from '../Banner/Banner';
-import Expertise from '../Expertise/Expertise';
 
 
 
@@ -13,7 +12,7 @@ const Homes = () => {
         <div>
             <Banner></Banner>
             <Services></Services>
-            <Expertise></Expertise>
+            
             <Achievement></Achievement>
 
         </div>
