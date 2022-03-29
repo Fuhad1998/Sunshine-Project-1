@@ -1,13 +1,16 @@
 import React from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
+import useAuth from "../../Hooks/UseAuth";
 
 const Register = () => {
+  const {registerUser} = useAuth();
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     console.log(data.name);
     console.log(data);
     alert("Register successful");
+    registerUser(data.email, data.password, data.name)
   };
   return (
     <div className="container  login-container my-5 shadow-lg">
